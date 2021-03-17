@@ -1,0 +1,29 @@
+GET http://localhost:3000/api/v1/example
+
+###
+
+GET http://localhost:3000/api/v1/example/602801c6ef4ed224f26f9804
+
+###
+
+POST http://localhost:3000/api/v1/example
+Content-Type: application/json
+
+{
+    "nama":"Miftakh Ali Said",
+    "absen": 17
+}
+
+###
+
+PATCH  http://localhost:3000/api/v1/example/602801c6ef4ed224f26f9804
+Content-Type: application/json
+
+{
+    "nama":"Miftakh Ali Said",
+    "absen": 17
+}
+
+###
+
+DELETE http://localhost:3000/api/v1/example/6027feeb924a11237427b528
